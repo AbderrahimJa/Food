@@ -1,0 +1,167 @@
+{
+  "foods": [
+    {
+      "id": 1,
+      "name": "pizza",
+      "description": "Lorem ipsum cata",
+      "price": 5,
+      "ingredients": [
+        "tomato",
+        "vegetables",
+        "3jina"
+      ],
+      "img": "https://www.qsrmagazine.com/sites/default/files/styles/story_page/public/phut_0.jpg?itok=h30EAnkk"
+    },
+    {
+      "id": 2,
+      "name": "burger",
+      "description": "Lorem ipsum cata",
+      "price": 7,
+      "ingredients": [
+        "tomato",
+        "vegetables",
+        "3jina",
+        "meat"
+      ],
+      "img": "https://www.thespruceeats.com/thmb/O4xB3FoR7B6ovTpcENFLtQyIuAU=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/indian-style-burger-1957599-hero-01-266103a4bb4e4ee7b5feb4da2d2e99da.jpg"
+    },
+    {
+      "id": 3,
+      "name": "sweet",
+      "description": "Lorem ipsum cata",
+      "price": 10,
+      "ingredients": [
+        "3jina",
+        "strawberry"
+      ],
+      "img": "https://www.cookwithkushi.com/wp-content/uploads/2020/09/BeFunky-Collage-1-1024x1024-1.jpg"
+    },
+    {
+      "id": 4,
+      "name": "drink",
+      "description": "Lorem ipsum cata",
+      "price": 2,
+      "ingredients": [
+        "fruits"
+      ],
+      "img": "https://restaurantindia.s3.ap-south-1.amazonaws.com/s3fs-public/content8080.jpg"
+    },
+    {
+      "id": 5,
+      "name": "ice cream",
+      "description": "Lorem ipsum cata",
+      "price": 12,
+      "ingredients": [
+        "fruits",
+        "milk"
+      ],
+      "img": "https://www.dairyfoods.com/ext/resources/DF/2019/November/ice-cream/dfx1119-IceCream-open.jpg?t=1572896166&width=900"
+    },
+    {
+      "id": 6,
+      "name": "cakes",
+      "description": "Lorem ipsum cata",
+      "price": 1,
+      "ingredients": [
+        "3jina",
+        "fruits"
+      ],
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Pound_layer_cake.jpg/220px-Pound_layer_cake.jpg"
+    },
+    {
+      "name": "krima",
+      "description": "wa3ra",
+      "price": "8",
+      "ingredients": [],
+      "img": "",
+      "id": 7
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "status": "Recive",
+      "what": [
+        {
+          "name": "cakes",
+          "quantite": 4
+        },
+        {
+          "name": "pizza",
+          "quantite": 2
+        }
+      ],
+      "prixTotale": 42.5,
+      "Commentaire": "cakes without sugar and pizza without onion"
+    },
+    {
+      "status": "Recive",
+      "what": [
+        {
+          "name": "krima",
+          "quantite": "8"
+        },
+        {
+          "name": "pizza",
+          "quantite": "2"
+        }
+      ],
+      "prixTotale": 74,
+      "Commentaire": "pizza bla bsla o krima hlwa",
+      "id": 2
+    },
+    {
+      "what": [
+        {
+          "name": "pizza",
+          "quantite": "1"
+        },
+        {
+          "name": "burger",
+          "quantite": "10"
+        }
+      ],
+      "prixTotale": 75,
+      "Commentaire": "jme3 kolxi f mika",
+      "status": "Ready",
+      "id": 3
+    },
+    {
+      "what": [
+        {
+          "name": "burger",
+          "quantite": "3"
+        },
+        {
+          "name": "krima",
+          "quantite": "5"
+        },
+        {
+          "name": "ice cream",
+          "quantite": "20"
+        }
+      ],
+      "prixTotale": 301,
+      "Commentaire": "tbarkllah 3lik",
+      "status": "In progress",
+      "id": 4
+    }
+  ],
+  "accounts": [
+    {
+      "username": "takoo",
+      "email": "takoo@gmail.com",
+      "password": "takoo1234"
+    },
+    {
+      "username": "takoo1",
+      "email": "takoo1@gmail.com",
+      "password": "takoo11234"
+    },
+    {
+      "username": "takoo2",
+      "email": "takoo2@gmail.com",
+      "password": "takoo21234"
+    }
+  ]
+}

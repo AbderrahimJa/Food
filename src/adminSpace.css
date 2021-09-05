@@ -1,0 +1,201 @@
+.AdSp{
+    margin: -25px 1%;
+    font-size: 17px;
+}
+
+.AdSp2{
+    margin-top: 75px;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 17px;
+}
+
+.AdSp1{
+    margin: -20px 1%;
+    font-size: 17px;
+}
+
+.AdSp1 p{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.AdSp i{
+    color: royalblue;
+}
+
+.AdSp i:hover{
+    color: var(--red);
+}
+
+.AdSp table, .AdSp1 table{
+    width: 100%;
+}
+
+.AdSp th, td{
+    width: 20%;
+    padding: 1%;
+}
+
+.AdSp1 th, td{
+    width: 15.5%;
+    padding: 1%;
+}
+
+.slct{
+    width: 100%;
+    text-align: center;
+}
+
+.AdSp1 thead th{
+    background-color: var(--red);
+    /* text-align: center; */
+}
+
+.AdSp td, .AdSp1 td{
+    height: 65px;
+    padding-top: 1.5%;
+}
+
+.form-select{
+    /* background-color: rgb(224, 224, 224); */
+    background-color: var(--red);
+    border: hidden;
+    width: 60%;
+    height: 35px;
+    margin-left: 20%;
+    font-size: 17px;
+}
+
+.AdSp tbody th, .AdSp tbody td, .AdSp1 tbody th, .AdSp1 tbody td{
+    vertical-align: middle;
+    /* text-align: center; */
+    /* border: 1px solid black; */
+}
+
+.AdSp thead th{
+    background-color: var(--red);
+}
+
+.AdSp img{
+    width: 70%;
+    height: 100%;
+    border: 1px solid #DDDDDD;
+	border-radius: 4%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+    vertical-align: middle;
+    /* background-size: cover; */
+	/* margin: 0 5px; */
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.322);
+}
+
+.txtarea{
+    /* padding:1rem; */
+    /* margin:1rem 0; */
+    font-size: 1.7rem;
+    color:#333;
+    text-transform: none;
+    border:.1rem solid rgba(0,0,0,.3);
+    border-radius: .5rem;
+    /* width: 49%; */
+    resize: none;
+}
+
+.form-label{
+    font-size: 2.3rem;
+}
+
+.form-control{
+    font-size: 1.7rem;
+}
+
+.Modal{
+    padding: 2%;
+    position: absolute;
+    top: 410px;
+    left: 50%;
+    right: 50%;
+    /* bottom: auto; */
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 1%;
+}
+
+@media (min-width: 1000px) {
+    .Modal{
+        /* top: 55%; */
+        /* top: 370px; */
+        bottom: -40%;
+        left: 50%;
+        right: 60%;
+    }
+
+    /* .AdSp .btn{
+        width: 50%;
+    } */
+}
+
+@media (max-width: 627px) {
+    .btns .btn{
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        width: 45%;
+    }
+}
+
+@media (min-width: 627px) {
+    .btns .btn{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+.btns{
+    text-align: center;
+}
+
+.headC1{
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    text-align: end;
+    margin-bottom: 4px;
+}
+
+.headC2{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.headC2 .lnk1{
+    margin-right: 12px;
+}
+
+.headC2 .lnk2{
+    margin-left: 12px;
+}
+
+.AdSp .btn{
+    margin: 0%;
+}
+
+.clr1{
+    color: #666;
+}
+
+.clr2{
+    color: var(--red);
+}
+
+.lnk1:hover, .lnk2:hover{
+    color: var(--red);
+}
